@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+.landing
+{
+    background: url("login.jpg") no-repeat scroll;
+    background-size: cover;
+    height: 100%;
+}
+.wrapper
+{
+    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+    display: flex;
+    justify-content: stretch;
+}
+.developer
+{
+    font-size: 50px;
+}
+.name_display
+{
+    margin-top: 50vh ;
+}
+.about
+{
+    font-size: 30px;
+    color: #cd660b;
+    margin-left: 80vh;
+    margin-bottom: 3%;
+}
+.about_display
+{
+    margin-left:70vh;
+    color: white;
+}
+.card{
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,0.2);
+    background-color: rgb(56, 56, 55);
+    padding: 20%;
+}
+.col
+{
+
+    float: left;
+    width: 20%;
+    margin: 2%;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.section_design
+{
+    background-color: rgb(56, 56, 55);
+    padding: 2%;
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,0.2);
+}
+
+.skill
+{
+    color: white;
+    width: 10%;
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,0.2);
+    background-color:rgb(56, 56, 55) ;
+    padding: 2%;
+}

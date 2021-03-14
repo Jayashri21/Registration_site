@@ -1,0 +1,35 @@
+.container
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+.card{
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    height: 80vh;
+    width: 60vh;
+    text-align: center;
+    background-color: white;
+}
+.card-header{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-image: linear-gradient(to right,rgb(3, 190, 252),rgb(155, 157, 158));
+}
+.card-body{
+    padding-top: 20%;
+    padding-bottom: 20%;
+
+}
+
+#login
+{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color:rgb(52, 164, 235) ;
+    padding-inline: 5vh;
+    padding: 1vh 5vh 1vh 5vh;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
